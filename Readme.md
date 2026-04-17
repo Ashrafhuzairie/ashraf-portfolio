@@ -65,7 +65,7 @@ The portfolio highlights my professional experience, technical projects, and gro
 
 I am Ashraf Huzairie, with a Master of Computer Science background and a strong technical foundation in cloud platforms, DevOps practices, and applied artificial intelligence.
 
-I currently work in the Digital Engineering domain as a BIM Modeller, where I collaborate on technology-driven solutions and automation initiatives.  
+I currently work in the Digital Engineering domain, where I collaborate on technology-driven solutions and automation initiatives.  
 My career goal is to transition into a Cloud Engineer / Cloud Architect role, focusing on scalable, secure, and production-ready cloud systems.
 
 ---
