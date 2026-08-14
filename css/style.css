@@ -827,8 +827,149 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Credentials
 --------------------------------------------------------------*/
+.credentials {
+  padding-bottom: 70px;
+}
+
+.credential-group-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.credential-group-heading h3,
+.credential-group-heading p {
+  margin: 0;
+}
+
+.credential-group-heading h3 {
+  color: #173b6c;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.credential-group-heading p {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.credential-group-icon {
+  align-items: center;
+  background: #149ddd;
+  border-radius: 12px;
+  color: #fff;
+  display: inline-flex;
+  flex: 0 0 48px;
+  font-size: 25px;
+  height: 48px;
+  justify-content: center;
+}
+
+.credential-card,
+.credential-profile-card {
+  background: #fff;
+  border: 1px solid #e7edf3;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(23, 59, 108, 0.08);
+  display: flex;
+  gap: 22px;
+  height: 100%;
+  padding: 28px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.credential-card-featured {
+  border-top: 4px solid #ff9900;
+}
+
+.credential-card:hover,
+.credential-profile-card:hover {
+  box-shadow: 0 12px 36px rgba(23, 59, 108, 0.14);
+  transform: translateY(-4px);
+}
+
+.credential-logo {
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  flex: 0 0 82px;
+  font-size: 20px;
+  font-weight: 800;
+  height: 82px;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.aws-logo { background: #232f3e; border: 5px solid #ff9900; }
+.ddm-logo { background: #173b6c; border: 5px solid #149ddd; }
+
+.credential-type {
+  color: #149ddd;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+.credential-content h4,
+.credential-profile-card h4 {
+  color: #173b6c;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.credential-content p,
+.credential-profile-card p {
+  color: #5f687b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.credential-issuer { font-weight: 600; margin-bottom: 12px; }
+.credential-dates { margin-bottom: 16px; }
+
+.credential-link {
+  align-items: center;
+  color: #149ddd;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 6px;
+}
+
+.credential-link:hover { color: #0b6fa4; }
+
+.credential-profile-card {
+  align-items: center;
+  background: linear-gradient(135deg, #173b6c, #0e2748);
+  border: 0;
+}
+
+.credential-profile-card > i {
+  color: #62c5f2;
+  flex: 0 0 auto;
+  font-size: 52px;
+}
+
+.credential-profile-card h4,
+.credential-profile-card p { color: #fff; }
+.credential-profile-card p { opacity: 0.8; }
+.credential-profile-card .credential-link { color: #62c5f2; }
+.linkedin-card { background: linear-gradient(135deg, #0a66c2, #004182); }
+
+@media (max-width: 575px) {
+  .credential-card,
+  .credential-profile-card { flex-direction: column; padding: 22px; }
+}
+
+/* Legacy testimonial styles retained for backwards compatibility */
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
