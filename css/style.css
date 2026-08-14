@@ -833,7 +833,10 @@ section {
   padding-bottom: 70px;
 }
 
-.credential-legacy { display: none; }
+.credential-grid,
+.credential-directory { display: none !important; }
+
+.credential-legacy { display: block; }
 
 .credential-grid { display: grid; gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .credential-tile { background: #12151d; border: 1px solid #2b3240; border-radius: 15px; box-shadow: 0 15px 35px rgba(23,59,108,.12); color: #fff; display: block; overflow: hidden; position: relative; transition: border-color .3s ease, box-shadow .3s ease, transform .3s ease; }
