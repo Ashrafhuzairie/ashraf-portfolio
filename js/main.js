@@ -230,4 +230,22 @@
    */
   new PureCounter();
 
+  /**
+   * Keep the profile age current from the birth date.
+   */
+  const ageElement = document.querySelector('#age[data-birth-date]');
+  if (ageElement) {
+    const [birthYear, birthMonth, birthDay] = ageElement.dataset.birthDate
+      .split('-')
+      .map(Number);
+    const today = new Date();
+    let age = today.getFullYear() - birthYear;
+    const birthdayHasPassed =
+      today.getMonth() + 1 > birthMonth ||
+      (today.getMonth() + 1 === birthMonth && today.getDate() >= birthDay);
+
+    if (!birthdayHasPassed) age--;
+    ageElement.textContent = age;
+  }
+
 })()
