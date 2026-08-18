@@ -835,8 +835,8 @@ section {
 
 .credentials .container { display: flex; flex-direction: column; }
 .credentials .section-title { order: 0; }
-.credential-group-ddm { order: 1; }
-.credential-group-aws { margin-top: 3rem; order: 2; }
+.credential-group-aws { order: 1; }
+.credential-group-ddm { margin-top: 3rem; order: 2; }
 
 .credential-grid,
 .credential-directory { display: none !important; }
@@ -967,6 +967,8 @@ section {
 }
 
 .buildingsmart-image { padding: 3px; }
+.credential-card > .credential-content,
+.credential-profile-card > div { min-width: 0; }
 
 @media (max-width: 575px) {
   .credential-card { align-items: flex-start; flex-direction: column; }
