@@ -833,6 +833,11 @@ section {
   padding-bottom: 70px;
 }
 
+.credentials .container { display: flex; flex-direction: column; }
+.credentials .section-title { order: 0; }
+.credential-group-ddm { order: 1; }
+.credential-group-aws { margin-top: 3rem; order: 2; }
+
 .credential-grid,
 .credential-directory { display: none !important; }
 
@@ -949,6 +954,24 @@ section {
 
 .aws-logo { background: #232f3e; border: 5px solid #ff9900; }
 .ddm-logo { background: #173b6c; border: 5px solid #149ddd; }
+
+.credential-brand-image {
+  background: #fff;
+  border: 1px solid #e7edf3;
+  border-radius: 12px;
+  flex: 0 0 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 6px;
+  width: 100px;
+}
+
+.buildingsmart-image { padding: 3px; }
+
+@media (max-width: 575px) {
+  .credential-card { align-items: flex-start; flex-direction: column; }
+  .credential-brand-image { flex-basis: 92px; height: 92px; width: 92px; }
+}
 
 .credential-type {
   color: #149ddd;

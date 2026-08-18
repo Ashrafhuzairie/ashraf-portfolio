@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title">
+  <title id="title">buildingSMART</title>
+  <rect width="600" height="600" fill="#fff"/>
+  <g fill="none" stroke-linecap="square" stroke-linejoin="round" stroke-width="76">
+    <path d="M69 254 69 178 198 49 326 178 253 251 197 195 128 264" stroke="#0b55a0"/>
+    <path d="M316 104 389 31 549 191 389 351 316 278 407 187 337 117" stroke="#f0002d"/>
+    <path d="M476 305 550 379 389 540 229 380 302 307 390 395 462 323" stroke="#079eaa"/>
+    <path d="M282 476 209 549 49 389 209 229 282 302 194 390 266 462" stroke="#99358f"/>
+  </g>
+</svg>
