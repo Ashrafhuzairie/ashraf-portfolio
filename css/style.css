@@ -436,40 +436,53 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+.skills .skill-group {
+  padding: 28px;
+  background: #fff;
+  border-left: 4px solid #149ddd;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(5, 13, 24, 0.08);
 }
 
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
+.skills .skill-level {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #149ddd;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+.skills .skill-group h3 {
+  margin: 0 0 8px;
+  color: #173b6c;
+  font-size: 21px;
+  font-weight: 700;
 }
 
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-  height: 10px;
+.skills .skill-group p {
+  margin-bottom: 18px;
+  color: #5c6773;
 }
 
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #149ddd;
+.skills .skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.skills .skill-tags span {
+  padding: 7px 12px;
+  color: #173b6c;
+  background: #eef7fc;
+  border: 1px solid #d4ebf8;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /* ================================
